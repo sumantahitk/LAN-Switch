@@ -21,6 +21,6 @@ server.exe                           # Run the server (Windows - Command Prompt)
 
 ```bash
 gcc -o client sock_clnt.c -lws2_32   # Compile the client
-./client                             # Run the client (Linux/macOS)
+./client 127.0.0.1(or any connected IP) # Run the client (Linux/macOS)
 client.exe                           # Run the client (Windows - Command Prompt)
 ```
