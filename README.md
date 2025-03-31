@@ -17,7 +17,7 @@ gcc -o server sock_srvr.c -lws2_32   # Compile the server
 ./server                             # Run the server (Linux/macOS)
 server.exe                           # Run the server (Windows - Command Prompt)
 ```
-#### **For the Server:**
+#### **For the Client:**
 
 ```bash
 gcc -o client sock_clnt.c -lws2_32   # Compile the client
